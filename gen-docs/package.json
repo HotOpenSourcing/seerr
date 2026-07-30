@@ -5,8 +5,8 @@
   "packageManager": "pnpm@10.24.0",
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
+    "start": "node init && docusaurus start",
+    "build": "node init && docusaurus build",
     "gen-api-docs": "docusaurus gen-api-docs all",
     "clean-api-docs": "node ./scripts/clean-api-docs.cjs",
     "swizzle": "docusaurus swizzle",

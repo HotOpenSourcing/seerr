@@ -29,7 +29,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -59,7 +58,6 @@ dist
 config/db/db.sqlite3-journal
 
 # VS Code
-.vscode/launch.json
 
 # Cypress
 cypress.env.json
@@ -91,3 +89,4 @@ devenv.local.yaml
 
 # pre-commit
 .pre-commit-config.yaml
+config.bat
